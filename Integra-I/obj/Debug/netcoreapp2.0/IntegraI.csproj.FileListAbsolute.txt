@@ -1,0 +1,11 @@
+C:\Users\juane\source\repos\Integra-I\Integra-I\bin\Debug\netcoreapp2.0\IntegraI.deps.json
+C:\Users\juane\source\repos\Integra-I\Integra-I\bin\Debug\netcoreapp2.0\IntegraI.runtimeconfig.json
+C:\Users\juane\source\repos\Integra-I\Integra-I\bin\Debug\netcoreapp2.0\IntegraI.runtimeconfig.dev.json
+C:\Users\juane\source\repos\Integra-I\Integra-I\bin\Debug\netcoreapp2.0\IntegraI.dll
+C:\Users\juane\source\repos\Integra-I\Integra-I\bin\Debug\netcoreapp2.0\IntegraI.pdb
+C:\Users\juane\source\repos\Integra-I\Integra-I\obj\Debug\netcoreapp2.0\IntegraI.csproj.CoreCompileInputs.cache
+C:\Users\juane\source\repos\Integra-I\Integra-I\obj\Debug\netcoreapp2.0\IntegraI.AssemblyInfoInputs.cache
+C:\Users\juane\source\repos\Integra-I\Integra-I\obj\Debug\netcoreapp2.0\IntegraI.AssemblyInfo.cs
+C:\Users\juane\source\repos\Integra-I\Integra-I\obj\Debug\netcoreapp2.0\IntegraI.dll
+C:\Users\juane\source\repos\Integra-I\Integra-I\obj\Debug\netcoreapp2.0\IntegraI.pdb
+C:\Users\juane\source\repos\Integra-I\Integra-I\obj\Debug\netcoreapp2.0\IntegraI.csprojResolveAssemblyReference.cache

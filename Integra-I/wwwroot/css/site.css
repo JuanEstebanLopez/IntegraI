@@ -1,0 +1,86 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.home-bkg {
+    padding: 50px;
+    text-align: center;
+    background-color: rgba(0,0,0, 0.4);
+    margin-top: 100px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+h1 {
+color: white !important;
+font-size: 2em;
+}
+form h2 {
+text-align: center;
+}
+
+h3 {
+    color: white;
+    font-size: 1.2em;
+    margin-bottom: 2em;
+}
+a {
+    text-decoration: none !important;
+}
+.btn-cotizacion {
+    color: white !important;
+    background-color: #ee6e73;
+    margin: 4px;
+    padding: 35px 50px;
+    line-height: 70px;
+    font-size: 18px;
+    border-radius: 15px;
+}
+
+.btn-form {
+    color: white !important;
+    background-color: #ccc;
+    margin: 4px;
+    padding: 5px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+input.btn-form {
+    background-color: #777;
+    border-style: none;
+    float: right;
+}
+.btn-form:hover {
+    background-color: #222;
+}
+
+    /* Wrapping element */
+    /* Set some basic padding to keep content from hitting the edges */
+    .body-content {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}

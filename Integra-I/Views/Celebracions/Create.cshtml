@@ -1,0 +1,104 @@
+﻿@model Integra_I.Models.Celebracion
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<br />
+<h4>Solicita una cotización</h4>
+<h2>Para tu celebración</h2>
+<hr />
+
+<form asp-action="Create">
+    <div class="row">
+        <div class="col-md-6 col-xs-12 col-md-offset-3 col-xs-offset-0" id="f-evento">
+            <h2>Acerca del evento</h2>
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="TipoEvento" class="control-label"></label>
+                <select asp-for="TipoEvento" class="form-control">
+                    <option disabled selected>¿Qué tipo de evento es?</option>
+                    <option value="Fiesta de Bienvenida">Fiesta de Bienvenida</option>
+                    <option value="Cumpleaños">Cumpleaños</option>
+                    <option value="Fiesta de Despedida">Fiesta de Despedida</option>
+                    <option value="Grado">Grado</option>
+                    <option value="Fiesta de Integración">Fiesta de Integración</option>
+                    <option value="Primera Comunión">Primera Comunión</option>
+                    <option value="Reencuentro">Reencuentro</option>
+                    <option value="Otro">Otro (Especificar en detalles)</option>
+                </select>
+                <span asp-validation-for="TipoEvento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Direccion" class="control-label"></label>
+                <input asp-for="Direccion" class="form-control" />
+                <span asp-validation-for="Direccion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Necesidades" class="control-label"></label>
+                <input asp-for="Necesidades" class="form-control" placeholder="¿Qué elementos se necesitan? (Invitaciones, comida, decoración, ...)"/>
+                <span asp-validation-for="Necesidades" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Fecha" class="control-label"></label>
+                <input asp-for="Fecha" class="form-control" />
+                <span asp-validation-for="Fecha" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Asistentes" class="control-label"></label>
+                <input asp-for="Asistentes" class="form-control" />
+                <span asp-validation-for="Asistentes" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Detalles" class="control-label"></label>
+                <textarea rows="4" asp-for="Detalles" class="form-control" placeholder="Cuéntanos de qué trata la celebración"></textarea>
+                <span asp-validation-for="Detalles" class="text-danger"></span>
+            </div>
+            <div class="row form-group">
+                <div class="col-md-6">
+                    <a href="javascript:showSection('contacto');" class="btn-form">Continuar</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-xs-12 col-md-offset-3 col-xs-offset-0 hide" id="f-contacto">
+            <h2>Acerca del tí</h2>
+            <div class="form-group">
+                <label asp-for="Nombre" class="control-label"></label>
+                <input asp-for="Nombre" class="form-control" />
+                <span asp-validation-for="Nombre" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Cedula" class="control-label"></label>
+                <input asp-for="Cedula" class="form-control" />
+                <span asp-validation-for="Cedula" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Celular" class="control-label"></label>
+                <input asp-for="Celular" class="form-control" />
+                <span asp-validation-for="Celular" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Correo" class="control-label"></label>
+                <input asp-for="Correo" class="form-control" />
+                <span asp-validation-for="Correo" class="text-danger"></span>
+            </div>
+            <div class="row form-group">
+                <div class="col-md-6">
+                    <a href="javascript:showSection('evento');" class="btn-form">Atrás</a>
+                </div>
+                <div class="col-md-6">
+                    <input type="submit" value="Enviar Solicitud" class="btn-form" />
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+    
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

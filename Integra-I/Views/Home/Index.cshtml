@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<a asp-area="" asp-controller="SolicitarPresupuesto" asp-action="Solicitar">
+    <div class="home-bkg">
+         
+        <h1> ES MOMENTO DE CELEBRAR </h1>
+        <h3>¡Cotiza con nosotros y recibe las mejores ofertas!</h3>
+         <li><a class="btn-cotizacion" asp-area="" asp-controller="Celebracions" asp-action="Create">Solicitar Cotización</a></li>
+    </div>
+    </a>
+
+    <style>
+        body {
+            background-image: url('/images/img.jpg');
+            background-size: cover;
+        }
+        .body-content hr, .body-content footer {
+            display: none;
+        }
+    </style>
+
+
+
+

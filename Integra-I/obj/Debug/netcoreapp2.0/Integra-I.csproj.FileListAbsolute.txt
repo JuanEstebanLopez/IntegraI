@@ -1,0 +1,11 @@
+C:\Users\juane\source\repos\Integra-I\Integra-I\bin\Debug\netcoreapp2.0\Integra-I.deps.json
+C:\Users\juane\source\repos\Integra-I\Integra-I\bin\Debug\netcoreapp2.0\Integra-I.runtimeconfig.json
+C:\Users\juane\source\repos\Integra-I\Integra-I\bin\Debug\netcoreapp2.0\Integra-I.runtimeconfig.dev.json
+C:\Users\juane\source\repos\Integra-I\Integra-I\bin\Debug\netcoreapp2.0\Integra-I.dll
+C:\Users\juane\source\repos\Integra-I\Integra-I\bin\Debug\netcoreapp2.0\Integra-I.pdb
+C:\Users\juane\source\repos\Integra-I\Integra-I\obj\Debug\netcoreapp2.0\Integra-I.csprojResolveAssemblyReference.cache
+C:\Users\juane\source\repos\Integra-I\Integra-I\obj\Debug\netcoreapp2.0\Integra-I.csproj.CoreCompileInputs.cache
+C:\Users\juane\source\repos\Integra-I\Integra-I\obj\Debug\netcoreapp2.0\Integra-I.AssemblyInfoInputs.cache
+C:\Users\juane\source\repos\Integra-I\Integra-I\obj\Debug\netcoreapp2.0\Integra-I.AssemblyInfo.cs
+C:\Users\juane\source\repos\Integra-I\Integra-I\obj\Debug\netcoreapp2.0\Integra-I.dll
+C:\Users\juane\source\repos\Integra-I\Integra-I\obj\Debug\netcoreapp2.0\Integra-I.pdb
